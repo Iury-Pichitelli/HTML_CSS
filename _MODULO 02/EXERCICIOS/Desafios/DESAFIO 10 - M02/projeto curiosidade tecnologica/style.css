@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "idroid";
+    src: url("fontes/idroid.otf") format("truetype");
+}
+@font-face {
+    font-family: "Nimbus";
+    src: url("fontes/NimbusSanL-Reg.otf") format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #E8E7C4;
+}
+
+main{
+    width: 100%;
+    max-width: 820px;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.349);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0px 0px 10px 10px ;
+}
+
+/* Primary tags */
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px 0px;
+    font-family: "Nimbus";
+    font-size: 1em;
+}
+
+strong{
+    color: #14583b;
+    font-weight: bolder;
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.349);
+
+}
+
+h1#titulo_principal{
+    font-family: "Fjalla One", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font-family: "idroid";
+    color: #104830;
+    padding: 10px 0px 0px 0px;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+h3{
+    font-family: "idroid";
+    color: #104830;
+    background-image: linear-gradient(to right,#62d8a5c2, #7af0bd8c,#cff8e6a4, #dbfceda4,#ffffff );
+    padding-left: 10px;
+}
+
+/* images and videos*/
+
+img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.video{
+    background-color: #155D34;
+    padding: 20px 40px;
+}
+
+iframe{
+    width: 100%;
+    height: 400px;
+    min-height: 0;
+}
+
+.droid{
+    display: block;
+    margin: 0 auto;
+}
+
+/* HEADER*/
+
+header{
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px 0px 0px 0px;
+    background-image: linear-gradient(to top, #104830,#14583b, #25a36c,#30ce89);
+    position: static;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.349);
+}
+
+header h1{
+    padding: 20px;
+}
+
+#paragrafo_titulo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* NAV*/
+
+nav ul{
+    display: flex;  
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Nimbus";
+}
+
+nav ul li:hover{
+    background-color: #1e7951;
+    transition: 500ms all ease-in-out;
+}
+
+nav li:hover > a{
+    transition: 500ms all ease-in;
+    color: #104830;
+}
+
+nav ul li{
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+/* Sections*/
+
+.part_1{
+    padding: 0px 20px;
+}
+
+.part_2{
+    padding: 0px 20px;
+}
+
+.part_3{
+    background-color: #7FE1AA;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.part_3 p{
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.extra{
+    background-color: #155D34;
+    color:#ffffff;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 1em;
+    font-weight: bold;
+    text-indent: 10px;
+    padding: 10px;
+    font-family: "Nimbus";
+}
+
+.lista{
+    place-items: center;
+}
+
+/* Aside*/
+
+aside{
+    padding: 10px 15px;
+}
+/* FOOTER*/
+
+footer{
+    background-color: #104830;
+    color: white;
+    margin-top: 10px;
+}
+
+footer p{
+    text-align: center;
+}

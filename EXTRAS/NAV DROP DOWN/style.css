@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(156, 136, 93);
+}
+
+header{
+    background-color: green;
+    width: 100%;
+    height: 70px;
+}
+
+header h1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0px;
+    color: white;
+}
+
+nav{
+    background-color: rgb(1, 83, 1);
+    width: 100%;
+    display: block;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li a{
+    text-align: left;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 7px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(0, 170, 0);
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+
+.drop li{
+    display: flex;
+}
+
+.drop-hover{
+    position: relative;
+}
+
+.drop-hover .drop{
+    background-color: rgb(1, 83, 1);
+    border-radius: 0px 0px 7px 7px;
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+
+.drop-hover .drop a{
+    padding: 15px;
+}
+
+.drop-hover:hover .drop{
+    height: 100px;
+}

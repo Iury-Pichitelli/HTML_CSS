@@ -1,0 +1,25 @@
+SEO = organizar o codigo para o google me encontrar
+
+<p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público no Github</a></p>
+
+____________________________________________________________________________
+target="_blank" = permite que o site nao seja sobreposto, abrindo uma nova aba ao lado
+
+‣ _blank vai abrir o link em uma nova janela em branco
+‣ _self vai abrir o link na janela ou frame atual (padrão)
+‣ _top vai desfazer todos os frames e abrir o destino no navegador completo
+‣ _parent similar ao uso do _top em uma referência à janela mãe
+‣ nome-do-frame caso esteja usando frames, indicar o nome da janela a abrir
+
+____________________________________________________________________________
+rel="external"
+
+Esse link é seu ou dos outros?
+Existe um recurso bem interessante para links que é indicar qual é a
+natureza do destino usando o atributo rel. Esse atributo aceita vários
+valores, entre eles vou citar:
+‣next indica que o link é para a próxima parte do documento atual
+‣prev indica que o link é para a parte anterior do documento atual
+‣author indica que é um link para o site do autor do artigo atual
+‣external indica que é um link para outro site que não faz parte do site atual
+‣ nofollow indica que é um link para um site não endossado, como um link pago

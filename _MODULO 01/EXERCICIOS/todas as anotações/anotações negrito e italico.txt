@@ -1,0 +1,14 @@
+ctrl + shift + P = abre um terminal no visual estudio aonde consigo envelopar as tags que desejo
+por exemplo <i>, aonde eu seleciono o a frase a tag sera acrescentada
+
+<strong></strong> = coloca em negrito
+<em></em> = em italico
+<mark></mark> = serve como um marca texto no padrao de cor amarela.
+<mark style="background-color: red;>"></mark> = troca a cor do marca texto.
+<small></small> = tem sentido semantico
+<big></big> = nao tem sentido semantico (fora de uso)
+<del></del> = da um risco nas palavras desejadas
+<ins></ins> = deixa sublinhado as palavras
+<u></u> = tag nao semantica de sublinhado
+<sup></sup> = texto sobrescrito como elevações de potenciação
+<sub></sub> = texto subescrito como formula do h2O

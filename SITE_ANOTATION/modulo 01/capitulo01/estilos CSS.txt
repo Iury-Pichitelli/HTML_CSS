@@ -1,0 +1,8 @@
+H1{
+    font-family: Arial;
+} 
+
+H1= SELETORES
+font-family: Arial; = declaração
+font-family= propriedade
+Arial=valor 

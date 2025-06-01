@@ -1,0 +1,130 @@
+>>>>> BOXES-MODELS <<<<<<
+
+<h1>Hello world!</h1>
+
+altura = height 
+largura = width
+borda = border = linha que circunda o contéudo
+padding = preenchimento (espaço interno)
+margin = margem (espaço externo)
+outline = contorno = é um border fora do box 
+
+TIPOS DE CAIXAS
+
+BOX-LEVEL = sempre vai pular para a linha debaixo quando outra caixa é criada 
+( ocupa todo o viewport da tela, se adaptando ao tamanho da tela) = 
+
+div
+h1 - h6
+p
+main
+header
+nav
+article
+aside
+footer
+form
+video
+
+INLINE-LEVEL = vai pular um espaço e continuar na linha e não ocupa toda a tela 
+e continua o contéudo na linha = 
+
+span
+a
+code
+small
+strong
+em
+sup - sub
+label
+button
+input
+select
+/* ----------------------------------------------------------------- */
+
+User Agent é o navegador
+
+
+margin: auto; centraliza uma div
+
+shorthand padding: top right bottom left;
+shorthand border: width style color;
+
+inline-block = um inline com caracteristicas de block
+
+/* --------------------------------------------------------------------- */
+
+
+Grouping Tags
+
+TAGS SEMANTICAS
+
+body
+
+    header>nav
+
+    main>section>article>h2^p{lorem50}
+
+    footer
+
+/* --------------------------------------------------------------------- */
+
+box-shadow
+
+devtools = botão de + coloca sombras mais ajustadas 
+
+inset = sombra dentro 
+outset = sombra fora
+
+box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.486), inset -2px -2px 2px rgba(0, 0, 0, 0.445);
+
+não é possivel fazer inset e outset no mesmo boxshadow
+
+/* --------------------------------------------------------------------- */
+
+vertices arrendondados
+
+border-radius: 20px 0px; = 20px top e bottom, 0px  left e right;
+
+border-radius: 50%; = um circulo
+
+
+Bordas personalizadas:
+
+usando border-image
+
+border-image-source: url("bordar.png");
+border-image-slice: 27; slice = fatiar
+border-image-repeat: repeat; repeat = repetir, round = redonda, stretch = esticar, space = espaço.
+
+short hand de border-image
+
+border-image: source slice repeat; sem virgulas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

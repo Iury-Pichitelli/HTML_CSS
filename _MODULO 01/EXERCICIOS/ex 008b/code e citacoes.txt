@@ -1,0 +1,15 @@
+Exercício 09: 
+
+<code></code> = fonte monoespacada(que dizer que cada letra , caracter ou numero possue o mesmo espaço)
+
+<pre></pre> = tudo que estiver dentro dela é considerado os espaçamentos 
+
+<q></q> = aspas com sentido semantico, uma citação simples
+
+<blockquote></blockquote> = para citações maiores como um trecho de um livro em especifico.
+
+<blockquote cite="url aleatoria"></blockquote> = o cite="" serve para colocar o site de onde foi retirado o trecho para manter os direitos autorais do autor, ele nao aparece no site mas é uma forma de não tomar copyright
+
+<abbr title="significado da sigla"></abbr> = quando o mouse fica encima da palavra aparece o significado.
+
+<bdo dir="ltr">Conteudo</bdo> (ltr = left to right)(rtl = right ro left) = inverte os textos no sentido que deseja (inutil)

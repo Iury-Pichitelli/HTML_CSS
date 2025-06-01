@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+
+            - px (pixel) recomendado da W3C
+
+            - cm (centimentro)
+            - mm (milimetro)
+            - in = 2,54cm (polegada)
+            - pt (ponto) usado no word, recomendada para impressão
+            - pc (paica)
+
+            Medidas Relativas
+
+            - em (medida relativa ao tamanho da fonte referente M maiusculo) recomendado da W3C
+
+            - rem (referente a fonte configurada no BODY)
+            - ex (altura x de uma fonte)
+            - vw (view width) porcentagem da lagura referente a viewport (tamanho da tela)
+            - vh (view height) altura da viewport
+            - %
+
+            */
+            font-size: 1em; /* 16px e o tamanho padrao = 1em */
+            font-weight: normal; /* Peso da fonte: lighter, normal, bold, bolder, pode-se colocar valores de 100 a 900*/
+            font-style: normal;
+            text-decoration: underline;
+        }
+
+        h1{
+            /*SHORT HAND*/
+            /*ORDEM: font-style -> font-weight -> font-size -> font-family*/
+            font: italic bold 3em arial, sans-serif;
+
+        }
+
+        h2{
+            font: bold 2em arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At porro explicabo voluptatem, autem modi dolores fugiat officia? Harum accusantium rem voluptate nobis est fuga provident perspiciatis similique accusamus hic obcaecati aut, reiciendis incidunt eveniet unde ad modi ipsam aspernatur error! Dolore animi dolor totam numquam harum, nesciunt iusto quae nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, eligendi? Esse voluptas, maxime reprehenderit earum eligendi provident sint dolorum quas.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat nobis sapiente deleniti, aliquid voluptates veritatis ea doloribus molestiae quasi similique repellendus a, doloremque explicabo officia numquam suscipit dignissimos itaque repudiandae? Commodi neque eos quae deleniti aspernatur incidunt ex eligendi expedita praesentium dolores cupiditate, fugiat reprehenderit temporibus voluptates iure ad ipsum rem. Tempore, rem ex blanditiis distinctio vero laudantium possimus eligendi laborum quisquam consequuntur sapiente tenetur aut delectus sequi necessitatibus accusamus!</p>
+    <h2>Subtitulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga mollitia saepe nam sit. Tempora labore consequuntur mollitia dolor pariatur amet aperiam reiciendis consectetur neque, quas animi suscipit voluptatem sunt impedit rem dolorem, possimus earum temporibus soluta et incidunt voluptatibus illum! Error ullam distinctio aperiam libero minima praesentium labore, repellendus dicta? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo beatae repellat possimus praesentium dolor rerum a commodi nihil ad ex.</p>
+</body>
+</html>

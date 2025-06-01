@@ -1,0 +1,10 @@
+Repositório local/remoto
+
+Git = gerenciador de versões (100% free Open source)
+Github = Faz backup para um servidor (para código)
+
+PUSH > atualizar o repósitorio remoto 
+joga oque está no repositório local (github no meu pc) para o servidor nuvem do github (remoto)
+
+Instalando GIT/GITHUB
+

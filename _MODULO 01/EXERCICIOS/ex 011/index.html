@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+    <style>
+        body{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto_P.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="images/foto_M.png" type="image/png">
+        <img src="images/foto_G.png" alt="Imagem dinâmica">     
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a repoduzir áudios em HTML5</p>
+    <!--<audio src="midia/Minecraft - Volume Alpha.mp3" controls autoplay></audio>-->
+    <!-- MP3 WAV OGG-->
+    <audio preload="metadata" controls>
+        <source src="midia/Minecraft - Volume Alpha.mp3" type="audio/mpeg">
+        <source src="midia/Minecraft - Volume Alpha.ogg" type="audio/ogg">
+        <source src="midia/Minecraft - Volume Alpha.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador nao consegue reproduzir o seu audio <a href="midia/Minecraft - Volume Alpha.mp3">Clique aqui para  baixar o arquivo</a></p>
+    </audio>
+</body>
+</html>

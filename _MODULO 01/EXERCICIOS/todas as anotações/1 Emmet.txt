@@ -1,0 +1,23 @@
+ul>li = faz as duas tags seguidas dentro uma da outra
+ul>li>a = faz as tres tags seguidas dentro uma da outra
+ul>li*3 = cria uma ul com 3 li dentro
+ul>li*3{item}
+ul>li*3{item $} = faz uam contagem na frente
+ul>li*3>lorem5
+
+lorem = coloca o texto lorem
+lorem10 = com 10 palavras do texto
+
+a{texto aleatorio} = <a href="#">Texto aleatorio</a>
+
+article>(header>h1+p)+footer = o footer será irmão do header em vez do article
+
+header+main+nav+aside+footer = faz as tgas seguidas uma da outra dentro da mesma identação
+
+header>h1^main+footer = faz o h1 dentro do header e depois volta a colocar na sequencia junto como o header
+
+.whatever = cria uma div com um classe com o nome = <div class="whatever"></div>
+
+#someid = cria IDS = <div id="someid"></div>
+
+main.l-main = cria uma main com a classe = <main class="l-main"></main>

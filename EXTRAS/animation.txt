@@ -1,0 +1,21 @@
+animation: pisca 1.5s infinite;
+animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: pisca;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+    box-shadow: 0px 0px 10px -6px #006dff;
+
+@keyframes pisca
+70% {
+    box-shadow: 0 0 0 12px #00000000;
+}
+100% {
+    box-shadow: 0 0 0 0 #00000000;
+}

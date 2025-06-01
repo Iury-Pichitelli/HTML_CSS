@@ -1,0 +1,9 @@
+jpeg = alta compactação
+png= baixa compactação e transparencia
+gif = animações e transparencia
+
+faorite_icon = e o icono que aparece na aba do navegador
+
+favicon.io = criar icones automaticamente
+favicon.cc = criar manualmente icones
+iconarchive = uma biblioteca de icones

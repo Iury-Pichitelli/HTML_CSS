@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+    <style>
+        body{
+            background-color: black;
+            color:aliceblue;
+            margin: 1;
+        }
+        h1{
+            text-align: center;
+        }
+        a{
+            text-decoration-line: none;
+            color: aqua;
+        }
+        ins{
+            text-decoration-color:rgb(31, 175, 2);
+        }
+    </style>
+</head>
+<body>
+    <h1><ins>Links externos</ins></h1><!--links externos apontam para outro sites que não é nosso-->
+    <p>- Você pode visitar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no Github</a></p> 
+    <p>- Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube</a></p>
+    
+    <p>> Target = "_blank" </p>
+    <ul type="disk">
+        <li>‣ _blank = vai abrir o link em uma nova janela em branco, permite que o site nao seja sobreposto, abrindo uma nova aba ao lado.
+        <li>‣ _self = vai abrir o link na janela ou frame atual (padrão).
+        <li>‣ _top = vai desfazer todos os frames e abrir o destino no navegador completo.
+        <li>‣ _parent = similar ao uso do _top em uma referência à janela mãe.
+        <li>‣ nome-do-frame = caso esteja usando frames, indicar o nome da janela a abrir.
+    </ul>
+    <p>> Rel="external"</p>
+    <ul>
+        <li>Esse link é seu ou dos outros?
+        <li> Existe um recurso bem interessante para links que é indicar qual é a natureza do destino usando o atributo rel. Esse atributo aceita vários valores, entre eles vou citar:
+        <ul>
+            <li>‣ next = indica que o link é para a próxima parte do documento atual.
+            <li>‣ prev = indica que o link é para a parte anterior do documento atual.
+            <li>‣ author = indica que é um link para o site do autor do artigo atual.
+            <li>‣ external = indica que é um link para outro site que não faz parte do site atual.
+            <li>‣ nofollow = indica que é um link para um site não endossado, como um link pago.
+        </ul>
+    </ul>
+    <hr>
+    <h1><ins>Links Internos</ins></h1><!--Ele vai fazer a relação com outra pagina que esta dentro do nosso servidor-->
+    <p>- Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a style="color:rgb(31, 175, 2);" href="pag002.html" rel="next">segunda página</a></p>
+    <p>Você também pode acessar a nossa <a style="color:rgb(31, 175, 2);" href="noticias/pag003.html" rel="next">página de notícias</a> </p>
+    <p>- Links internos: são para as paginas internas do site aonde devemos especificar que a pagina atraves da tag REL o tipo como NEXT, PREV, EXTERNAL ou NOFOLLOW (para paginas patrocinadas, pagas), o atributo target não é necesario pois nao precisa abrir outra pagina como o _blank.</p>
+    <ul>
+        <li>LINKS NOFOLLOW E DOFOLLOW (relevancia de referencia de sites, os backlinks)</li>
+        <li>Aprender linux -> ./ = na mesma pasta, ../ = na pasta anterior</li>
+    </ul>
+    <hr>
+    <h1><ins>Links para download</ins></h1>
+    <ul>
+        <li><a href="book/Aula 10.pdf" download="Aula 10.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="book/Aula 10.zip" download="Aula 10.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+    <p>DOWNLOAD LINKS:</p>
+    <pre>
+- Para achar o type de cada extensão de arquivo para download: 
+
+    <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" hreflang="en">https://www.iana.org/assignments/media-types/media-types.xhtml</a>
+
+- Para efetuarmos um download devemos primeiramente fazer o formato link:
+
+    &lta href="<ins style="color: rgb(211, 100, 9)">book/arquivo.pdf</ins>">baixar arquivo pdf&lta&gt
+
+- Logo em seguida devemos especificar o arquivo que sera baixado:
+
+    &lta href="<ins style="color: rgb(211, 100, 9)">book/arquivo.pdf</ins>" download="arquivo.pdf">baixar arquivo pdf&lta&gt
+
+- Por fim devemos colocar o type do aquivo que esta disponivel no link da iana.org:
+
+    &lta href="<ins  style="color: rgb(211, 100, 9);">book/arquivo.pdf</ins>" download="arquivo.pdf" type="application/pdf">Baixar arquivo pdf&lta&gt
+
+- hreflang = "en"
+
+    Outro atributo bem útil da tag de âncora é o hreflang, que permite indicar qual é o
+    idioma principal do site para onde o link está desviando o fluxo de navegação. Isso vai
+    permitir avisar ao navegador e a softwares de tradução como lidar caso o visitante
+    opte por traduzir automaticamente os conteúdos.
+    </pre>
+    <hr>
+</body>
+</html>

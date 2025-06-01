@@ -1,0 +1,32 @@
+links internos são para as paginas internas do site aonde devemos especificar que a pagina atraves da tag REL o tipo como NEXT, PREV, EXTERNAL ou NOFOLLOW (para paginas patrocinadas, pagas), o atributo target não é necesario pois nao precisa abrir outra pagina como o _blank.
+
+LINKS NOFOLLOW E DOFOLLOW (relevancia de referencia de sites, os backlinks)
+
+Aprender linux -> ./ = na mesma pasta, ../ = na pasta anterior
+
+DOWNLOAD LINKS:
+
+- Para achar o type de cada extensão de arquivo para download: 
+
+https://www.iana.org/assignments/media-types/media-types.xhtml
+
+- Para efetuarmos um download devemos primeiramente fazer o formato link
+
+<a href="book/arquivo.pdf">baixar arquivo pdf</a>
+
+- Logo em seguida devemos especificar o arquivo que sera baixado:
+
+<a href="book/arquivo.pdf" download="arquivo.pdf">baixar arquivo pdf</a>
+
+- Por fim devemos colocar o type do aquivo que esta disponivel no link da iana.org:
+
+<a href="book/arquivo.pdf" download="arquivo.pdf" type="application/pdf">Baixar arquivo pdf</a>
+
+hreflang = "en"
+
+Outro atributo bem útil da tag de âncora é o hreflang, que permite indicar qual é o
+idioma principal do site para onde o link está desviando o fluxo de navegação. Isso vai
+permitir avisar ao navegador e a softwares de tradução como lidar caso o visitante
+opte por traduzir automaticamente os conteúdos.
+
+ul>li = faz a tag ul seguida de li

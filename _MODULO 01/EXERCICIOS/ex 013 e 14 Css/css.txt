@@ -1,0 +1,5 @@
+<style>
+
+text-align: justify = deixa alinhado o texto e nao deixa quebrado no final
+
+1em = 16px

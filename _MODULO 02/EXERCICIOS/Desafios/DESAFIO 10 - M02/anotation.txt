@@ -1,0 +1,69 @@
+Planejando a estrutura do site:
+
+Layout:
+
+header > h1 ^ p
+
+nav > a
+
+main > article > aside
+
+footer > p
+
+/* --------------------------------------------------- */
+Cores
+
+/* --------------------------------------------------- */
+Fontes
+
+/* -------------------------------------------------- */
+
+Variaveis nas folhas de estilos:
+
+
+:root{} = O uso do :root com variáveis CSS (custom properties) serve justamente para evitar que você precise trocar os valores individualmente em cada regra de estilo. Ao definir essas variáveis no :root, você centraliza os valores e torna o código mais fácil de manter.
+
+Se você tiver que mudar uma cor ou fonte, por exemplo, você só precisa alterar o valor da variável no :root, e todas as partes do CSS que dependem dessa variável serão automaticamente atualizadas. Isso economiza tempo e reduz a chance de erros.
+
+--cor: yellow;
+
+/* -------------------------------------------------------- */
+
+img por padrão não são diisplay block
+
+background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)) = usando var o degrade vai da cor 3 ate a cor 5
+
+line-height: 2em; espaço entre as linhas
+
+usar espaçamentos entre as linhas para facilitar a leitura
+
+aside ul{
+
+list-style-position: inside; deixa os discos para dentro da div
+columns: 2; divide em duas colunas a lista
+list-style-type: "\2714\0020\0020"; muda o simbolo da lista
+}
+
+margin: -10px = não é preciso criar uma div para criar uma divisão no proprio bloco
+
+/* ---------------------------------------------------------- */
+
+Configurando videos do iframe/youtube
+
+colocar o iframe dentro de uma div class="video"
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------- */
+
+
+
+

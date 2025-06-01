@@ -1,0 +1,55 @@
+Pseudo classes
+
+Referenciadas com dois pontos ( : )
+
+A pseudo classe e o estado de um determinado elemento:
+
+hover = quando eu passar o mouse por cima 
+
+O sinal > refere-se ao clild da div sendo no caso a tag <P>
+
+div > p{
+     display: none;  = esconde o paragrafo dentro da div
+        }
+
+div:hover  > p{
+    display: block; = mostra o paragrafo dentro da div
+    color: white;
+    background-color: red;
+}
+
+div:hover{
+    color: red; = letra ficar vermelha quando o ponteiro esta encima
+}
+
+tipos de pseudo classes
+
+hover
+
+visited
+
+active
+
+Pseudo elementos
+
+duas vezes dois pontos ::
+
+SELETORES PERSONALIZADOS
+
+ #  = id
+ .  = Class
+ :  = pseudo-class
+ :: = pseudo-element
+ >  = children
+
+
+
+
+
+
+
+
+
+
+
+

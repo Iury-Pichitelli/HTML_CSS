@@ -1,0 +1,59 @@
+Para inserir um video usamos a tag <video>
+
+Para maior responsividade usamos a tag video so que colocamos dentro dela o source:src desta maneira, para que o video carregue de acordo com a responsividade do navegador do usuario.
+
+<video controls width="1000" poster="images/Sem título.png">
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/Video.mkv" type="video/mkv">
+        <source src="midia/Video.webm" type="video/webm">
+        <source src="midia/Video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+</video>
+
+Usamos:
+
+width: para o tamanho do video
+poster: para a thumbnail do video
+controls: para exibir os controles do video
+
+auto = o site so sera carregado se todos os videos estiverem baixados.
+metadata = as informações basicas do video e nao o baixa o arquivo em si ate que o video seja iniciado pelo  play do controls.
+none = nenhum parametro.
+
+Problema no trafego de dados: 
+
+Videos grandes consomem muito trafego do servidor hospedado, custando muito para o cliente, um exemplo:
+
+O video.mp4 que colocamos tem 3,931 Kilobytes de tamanho, se o site tem acesso diario de 1000 usuarios, o consumo de trafego é de 3,931 x 1000 = 3.8GB de trafego, high cost
+
+
+Para exportar videos do youtube vamos clicar em compartilhar e clicar na opção (<>)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mZ0n03BHx0Q?si=Xc0wGBjmru2gkziy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+É possivel editar algumas coisas e ate o tamanho que vai aparecer.O video nao vai ser carregado no servidor do cliente mas sim no servidor do YouTube
+
+
+Vimeo = deixa os videos no modo privado, não e possivel ser incorporado por outros usuarios
+
+3. Compressão
+Taxa de bits:
+
+480p: ~1.5 Mbps
+720p: ~2.5 Mbps
+1080p: ~4-6 Mbps
+4K: ~15 Mbps
+Use ferramentas de compressão como HandBrake, FFmpeg, ou serviços como CloudConvert para reduzir o tamanho do arquivo sem sacrificar a qualidade.
+
+É possivel colocar legenda se tiver o arquivo
+
+<video controls>
+  <source src="video.mp4" type="video/mp4">
+  <track src="legendas.vtt" kind="subtitles" srclang="pt" label="Português">
+  Seu navegador não suporta vídeo.
+</video>
+
+
+
+
+

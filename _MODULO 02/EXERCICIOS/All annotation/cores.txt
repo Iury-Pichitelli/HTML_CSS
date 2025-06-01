@@ -1,0 +1,141 @@
+Para usar fundo preto e letras brancas so para poucas informações 
+Fundo branco e letras pretas para textos longos
+
+Harmonia das cores: 
+
+circulo cromatico.
+
+12 cores princiapais:
+
+____________________________________________
+
+Cores primarias:
+
+amarelo, vermelho e azul (forma um triangulo)
+
+_____________________________________________
+
+Cores secundarias:
+
+laranja, violeta e verde (forma um triangulo)
+
+_____________________________________________
+
+Cores terciarias:
+
+São as misturas das cores primarias e secundarias
+
+Sempre representar a cor de acordo com a
+sequencia das cores
+
+ex: amarelo-esverdiado 
+(amarelo primario, verde secundario)
+
+não representar verde-amarelado (incorreto)
+
+As cores terciarias são:
+
+* Amarelo-esverdeado
+* Amarelo-alaranjado
+* Vermelho-alaranjado
+* Vermelho-arroxeado
+* Azul-arroxeado
+* Azul-esverdeado
+
+_______________________________________________
+
+Temperaturas de cores: imagem no pdf
+
+_______________________________________________ 
+
+Cores analogas:
+Sao as duas cores vizinhas no circulo cromatico (3 cores totais)
+
+Cores complementares:
+Sao cores que dao contraste, aquelas do lado oposto no circulo cromatico (cor oposta 2)
+
+Cores analogas relacionadas:
+Em vez de tres cores principais são duas que estão ao lado e mais uma pulando uma no circulo cromatico
+
+Cores intercaladas:
+São cores que saltam de uma em uma
+
+Cores triadicas:
+
+Pula tres em tres, fazendo um triangulo por exemplo: amarelo, vermelho e azul
+
+Cores em quadrado:
+
+Pula de dois em dois e forma um quadrado.
+
+Monocromia: saturação e luminosidade = paletas de cores.
+_______________________________________________________
+
+PALETA DE CORES: 
+
+https://color.adobe.com/pt/create/color-wheel
+
+_________________________________________________________
+
+Gradiantes em Css
+
+Em vez de usar background-color, devemos usar o 
+
+brackground-image: linear-gradient(to right ou 90deg, cores, cores,cores)
+
+to right
+to left
+to bottom
+to top
+
+ex:
+
+background-image:linear-gradient(230deg,#4E2FD1,#8536B4,#AC399E,#E33F7C,#ED4D6F,#F66955,#FE833F,#FDAF40,#FAEB42);
+
+background-image: radial-gradient(circle,#4E2FD1,#8536B4,#AC399E,#E33F7C,#ED4D6F,#F66955,#FE833F,#FDAF40,#FAEB42);
+cria circulo de cor
+
+podemos modificar a quantidade de cada cor colocando 10% na frente da cor
+
+SEMPRE USAR DE 3 A 5 CORES
+
+____________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

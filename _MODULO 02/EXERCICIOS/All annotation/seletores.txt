@@ -1,0 +1,41 @@
+Seletores personalizados:
+
+Exemplo:
+
+Possuindo 3 <h1> sendo o primeiro o titulo principal do site, podemos atribuir o id="principal" ao primeiro <h1 id="principal"> tornando ele diferentes dos outros demais h1
+
+Na Css para persnaliza-lo devemos escrever h1#principal{} e colocar os atributos dentro, podendo apenas tambem colocar #principal e outras tags (elementos) podem herdar esses atributos
+
+Em HTML é id = em CSS é #
+Em HTML é class = em CSS é .
+
+ID e Class = Diferença e quando usar
+
+O ID so pode ser usado uma vez por tipo de tag, se eu coloquei o id="principal" no h1 eu não posso colocar em outro h1 o mesmo id, regra W3C. por documento HTML (página).
+
+A class tem a mesma função que o ID mas pode ser usado varias vezes mesmo se a tag for a mesma.
+
+Podemos colocar duas classes na mesma tag por exemplo <h1 class="principal destaque"> = não é necessário separar por vírgula.
+
+Podemos também colocar um id e class na mesma tag. o id sobrepõe a class.
+
+<span> = O <span> é uma tag HTML utilizada para agrupar e estilizar partes específicas de um texto dentro de um elemento maior. Ele é um elemento de linha e não possui nenhum significado semântico específico, ou seja, é apenas uma caixa genérica para estilização e manipulação de texto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Videos com Html5</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Inserindo videos hospedado localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+    <h2>Videos MP4</h2>
+    <video src="midia/video.mp4" width="560" height="315" controls></video>
+    <h2>Video MKV</h2>
+    <video src="midia/Video.mkv" width="560" height="315" controls></video>
+    <h2>Video ogv</h2>
+    <video src="midia/video.ogv" width="560" height="315" controls></video>
+    <h2>Video Webm</h2>
+    <video src="midia/Video.webm" width="560" height="315" controls></video>
+
+     <h1>Testando videos com source, poster e loop</h1>
+     <video loop controls width="560" height="315" poster="images/Sem título.png">
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/Video.mkv" type="video/mkv">
+        <source src="midia/Video.webm" type="video/webm">
+        <source src="midia/Video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+     </video>
+
+     <h1>Inserindo videos do youtube</h1>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/mZ0n03BHx0Q?si=Xc0wGBjmru2gkziy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>

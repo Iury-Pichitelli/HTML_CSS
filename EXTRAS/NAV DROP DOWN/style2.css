@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+header{
+    background-color: green;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+header h1{
+    text-align: center;
+}
+
+nav{
+    background-color: cadetblue;
+    display: flex;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+}
+
+
+.drop-down{
+    height: 0;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.drop:hover .drop-down{
+    height: 100px;
+    overflow: visible;
+    
+}
+
+.drop-down li ul{
+    display: none;
+}
+
+li{
+    position: relative;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 10px 20px;
+    display: block;
+}
+
+.active, li:hover{
+    background-color: rgb(92, 206, 168);
+}
+
+/* Dropdown level 01*/
+
+.drop:hover ul{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: cadetblue;
+    width: 140px;
+}
+
+.drop a{
+    text-align: left;
+    padding:10px;
+    width: 100%;
+}
+
+/* Dropdown level 02*/
+
+.drop-down .hover-me ul{
+    display: none;
+    width: 200px;
+    
+}
+
+.drop-down .hover-me:hover ul{
+    display: block;
+    top: 0;
+    left: 100%;
+    
+}
+
+/* animation*/
+
+
+
+
+
+
+
+
+
+

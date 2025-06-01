@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: auto;
+    background-color: gray;
+    margin: 0;
+    border-radius: 20px 0px;
+}
+header{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    border-radius: 20px 0px;
+    width: 600px;
+    box-shadow: 2px 2px 2px black; 
+}
+header > h1{
+    text-align: center;
+}
+nav{
+    background-color: rgb(100, 100, 100);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 0px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 0px 10px 10px 10px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+main{
+    background-color: rgb(99, 99, 99);
+    padding: 10px ;
+    margin: auto;
+    width: 600px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 20px 0px;
+}
+section{
+    background-color: rgb(184, 184, 184);
+    border-radius: 20px 0px;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    box-shadow: 2px 2px 2px black;
+}
+article{
+    background-color: rgb(121, 121, 121);
+    border-radius: 20px 0px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.486), inset -2px -2px 2px rgba(0, 0, 0, 0.445);
+}
+article > aside{
+    background-color: rgb(151, 151, 151);
+    color: black;
+    border-radius: 20px 0px;
+    padding: 2px;
+}
+
+aside{
+    margin-top: 10px;
+    padding: 10px;
+}
+aside > p{
+    margin: 0px;
+    padding: 2px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+
+.marcadores{
+    margin-bottom: 10px;
+    color: rgb(0, 150, 250);
+    background-color: aliceblue;
+    width: max-content;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+#bola{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 100px auto;
+    text-align: center;
+    padding: 10px;
+
+}

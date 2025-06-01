@@ -1,0 +1,19 @@
+    content: "RESPOSTA CORRETA";
+    color: #198038;
+    width: 98px;
+
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 6px;
+    height: 11px;
+    background: #fff;
+    font-size: 9px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0 2px;
+    line-height: 1;
+    letter-spacing: .2px;
+    transition: none;
+}

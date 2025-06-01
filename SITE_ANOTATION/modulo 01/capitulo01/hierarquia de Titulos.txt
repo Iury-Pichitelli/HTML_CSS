@@ -1,0 +1,4 @@
+A hierarquia vai de h1 até h6
+passando disso o texto esta muito complexo e nao sera lido
+
+Podemos colocar mais de um h1 em um texto, na é regra

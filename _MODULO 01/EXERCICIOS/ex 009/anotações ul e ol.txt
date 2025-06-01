@@ -1,0 +1,74 @@
+
+<ol></ol> = ORDERED LIST = Lista ordenada que coloca a lista em ordem, aonde a ordem importa, como numa lista de tarefas
+<ul></ul> = UNORDERED LIST = Lista desordenada coloca os itens da lista em qualquer ordem aonde não é importante a ordem dos itens como uma lista de supermercado.
+<li></li> = LIST ICON = Lista de icones é usada para definir oque estara dentro das ul ou ol. Os itens de cada tipo de listas tem que está dentro do li para serem mostradas.
+__________________________
+
+Para da um Style nas ul e ol, temos as seguintes opções:
+
+<ol type="1,A,a,I,i"></ol>
+<ul type="square, circle e disk"></ul>
+
+___________________________
+
+Podemos colocar as lista dentro de outras listas de acordo com a necessidade:
+
+<ol> = container
+    <li>TITULO</li>
+    <ul>
+        <li>Texto</li>
+    </ul>
+</ol>
+
+___________________________
+
+Para lista de descrição podemos usar as seguintes Tags:
+
+<dl></dl> = Definition list, é uma lista usada para descrever algo como o dicionario. O google da preferencia para codigos HTML que usando tal tags em suas estruturas como ferramenta de busca.(Container)
+<dt></dt>= definition term
+<dd></dd> = definition description
+
+EXEMPLO:
+<dl>
+    <dt>TERMO</dt>
+    <dd>Descrição</dd>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para a criação do conteudo de um site</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para a criação do design de um site</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+</dl>
+______________
+DT: Fulano
+DD: Fala
+
+DT: Imagem
+DD: Descrição
+DD: Localização
+DD: Fotografo
+
+DT: Termo
+DD: Imagem descritiva
+DD: Descrição
+
+DT: Website (link)
+DD: Descrição
+
+DT: Data
+DD: Evento
+
+DT: Evento
+DD: Data
+DD: Descrição
+DD: Local
+
+DT: Links internos
+DD: Home
+DD: Seção 1
+DD: Seção 2
+
+DT: Links externos
+DD: Link externo 1
+DD: Link externo 2
+___________________

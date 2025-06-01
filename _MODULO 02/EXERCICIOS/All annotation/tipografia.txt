@@ -1,0 +1,188 @@
+TIPOGRAFIA:
+
+Anatomia dos tipos:
+
+Todas as letras (fontes) criadas sao baseadas na letra 'x' minuscula, pois a altura-x e baseada nesse x e deriva 
+para todas as outras letras dessa fonte
+
+altura x 
+altura das maiúsculas
+ascendente = oque vazou para cima
+descendente = vazou para baixo
+corpo = todas alturas somadas
+
+sefiras = prologamento de uma letra, o pésinho. 
+haste = e o bloco que uma letra tem tendo duas como A
+filete = e a haste que junta duas haste ou arcos como no A
+esporão = saltinho que segura a letra B
+vertice = a ponta do A por exemplo
+terminal = um filete que nao está preso a algum lugar
+braço e perna = no K e o traço é que sai da haste do K - BRAÇO e o para cima e perna o para baixo
+espinha - a curca do S no meio dele
+barriga = dois arcos juntos como no b.
+olho = buraco fechado da letra
+orelha = e um esporão na parte de cima de uma letra , no g bem na cabeçinha dele
+calda = descendente da fonte
+glifos = uma letra de uma fonte = todos os glifos = fonte.
+familia tipografica = todas as formas de uma letra na mesma fonte com um A em negrito - bold;
+
+CATEGORIA DE FONTE:
+
+Olá mundo! > times news roman = fonte serifas
+Olá mundo! > sans-serif = frances - sem serifa
+Olá mundo! > fonte monoespaçada > com ou sem serifa (todas as letras ocupam o mesmo espaço)
+Olá mundo! > fonte de script > handwriting (escrita a mão)
+Olá mundo! > fonte display (comemorativa) - não segue nenhuma regra.
+
+ATENÇÃO: Para sites que tem textos muitos longos dê preferência a fontes não serifadas.
+
+------------------------------------
+
+Para encontrar fontes safes que são semelhantes para colocar no site.
+
+css web safe font combinations = site salvo
+
+se eu colocar sans-serif quer dizer que o site vai pegar fonte sem serifa;
+
+---------------------------------------------------------
+
+
+Medidas Absolutas
+
+- px (pixel) recomendado da W3C
+
+- cm (centimentro)
+- mm (milimetro)
+- in = 2,54cm (polegada)
+- pt (ponto) usado no word, recomendada para impressão
+- pc (paica)
+
+Medidas Relativas
+
+- em (medida relativa ao tamanho da fonte referente M maiusculo) recomendado da W3C
+
+- rem (referente a fonte configurada no BODY)
+- ex (altura x de uma fonte)
+- vw (view width) porcentagem da lagura referente a viewport (tamanho da tela)
+- vh (view height) altura da viewport
+- %
+
+-----------------------------------------------------------
+
+Peso, estilo e shorthand font
+
+Nem todas as fontes tem suporte a italic, bold, light ou underline (sublinhado);
+
+font = 'work Sans';
+
+* font-weight: ; = Peso da fonte: lighter, normal, bold, bolder e bigbolder;
+O font-weight tem valores entre 100 a 900;
+
+font-style: italico ou normal;
+
+* text-decoration: underline; deixa sublinhado;
+
+SHORTHAND
+
+ORDEM: font-style -> font-weight -> font-size -> font-family
+
+font: italic bold 1em arial, sans-serif
+
+----------------------------------------------------------
+ 
+Usando google fonts
+
+indo no site google fontes e copiando o codigo CSS import vamos conseguir importar a
+fonte para o site.
+
+import é regra;
+
+body{}  é um seletor;
+
+e dentro de cada seletor são : declarações;
+
+3 ou 4 familias de fontes é o sufuciente para o site;
+
+-----------------------------------------------------------
+
+Baixando fontes
+
+Para baixar as fontes, precisamos acessar o site DAFONT 
+
+obs: verificar se a fonte possui glifos acentuados.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

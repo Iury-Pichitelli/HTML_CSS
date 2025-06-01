@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <title>Test me</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, it`s me</h1>
+    <h2>Testing images</h2>
+    <picture>
+        <source media="(max-width: 323px)" srcset="images/iury_p.png" type="image/png">
+        <source media="(max-width: 630px)" srcset="images/iury_m.png" type="image/png">
+        <img src="images/iury.png" alt="me">
+    </picture>
+    <h1>Inserindo audios teste</h1>
+    <h2>Just using audio with src without source</h2>
+    <audio src="../midia/Minecraft - Volume Alpha.mp3" controls></audio><br>
+    <h2>Using source with preload=metadata and controls</h2>
+    <audio preload="metadata" controls>
+        <source src="../midia/Minecraft - Volume Alpha.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

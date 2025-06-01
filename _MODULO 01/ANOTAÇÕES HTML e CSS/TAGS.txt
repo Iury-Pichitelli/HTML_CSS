@@ -1,0 +1,29 @@
+<h1></h1> = titulo
+
+<p></p> = paragrafo
+
+<img src="img.png" alt="imagem">
+
+parametros = src e alt
+
+valores= "img.png"
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Para faze aparever o <> no texto precisamos usar &lt; "<" e &gt; ">"
+
+comentario= <!-- abc123 -->
+
+&reg;
+&copy;
+&TRADE;
+&euro;
+&pound;
+&yen;
+&Delta;
+&UpArrow;        
+
+www.Emojipedia
+
+&#x1f596; esta em hexadecimal.
+
