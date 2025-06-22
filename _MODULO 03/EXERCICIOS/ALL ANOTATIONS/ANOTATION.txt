@@ -13,3 +13,5 @@ description = nome do projeto
 local path = caminho até a pasta do NAME
 license = MIT
 
+QrCode generator = criar o qrCode do site
+
