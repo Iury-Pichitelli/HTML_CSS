@@ -8,3 +8,8 @@ joga oque está no repositório local (github no meu pc) para o servidor nuvem d
 
 Instalando GIT/GITHUB
 
+name = nome da pasta 
+description = nome do projeto
+local path = caminho até a pasta do NAME
+license = MIT
+
